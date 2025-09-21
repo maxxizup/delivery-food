@@ -17,9 +17,9 @@
         <header class="header">
             <div class="container">
                 <div class="header-box">
-                    <div class="header-logo logo">
+                    <a href="./index.html" class="header-logo logo">
                         <img src="./images/logo.png" alt="logo">
-                    </div>
+                    </a>
                     <div class="header-controls">
                         <button class="btn btn-primary">
                             <img src="./images/icons/user.png" alt="user">
@@ -55,7 +55,7 @@
                         <input type="text" class="products-header--search" placeholder="Поиск блюд и ресторанов">
                     </div>
                     <div class="products-wrapper">
-                        <div class="products-card">
+                        <a href="./goods.html" class="products-card">
                             <div class="products-card__image">
                                 <img src="./images/rests/rests-1.jpg" alt="rests-1">
                             </div>
@@ -79,8 +79,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="products-card">
+                        </a>
+                        <a href="./goods.html" class="products-card">
                             <div class="products-card__image">
                                 <img src="./images/rests/rests-2.jpg" alt="rests-2">
                             </div>
@@ -104,8 +104,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="products-card">
+                        </a>
+                        <a href="./goods.html" class="products-card">
                             <div class="products-card__image">
                                 <img src="./images/rests/rests-3.jpg" alt="rests-3">
                             </div>
@@ -129,8 +129,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="products-card">
+                        </a>
+                        <a href="./goods.html" class="products-card">
                             <div class="products-card__image">
                                 <img src="./images/rests/rests-4.jpg" alt="rests-4">
                             </div>
@@ -154,8 +154,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="products-card">
+                        </a>
+                        <a href="./goods.html" class="products-card">
                             <div class="products-card__image">
                                 <img src="./images/rests/rests-5.jpg" alt="rests-5">
                             </div>
@@ -179,8 +179,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="products-card">
+                        </a>
+                        <a href="./goods.html" class="products-card">
                             <div class="products-card__image">
                                 <img src="./images/rests/rests-6.jpg" alt="rests-6">
                             </div>
@@ -204,19 +204,75 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-
                 </div>
             </section>
         </main>
 
+        <div class="cart-modal__overlay">
+            <div class="cart-modal">
+                <div class="cart-modal__header">
+                    <h4 class="cart-modal__header--title">Корзина</h4>
+                    <img src="./images/icons/close.svg" alt="close" class="cart-modal__header--close">
+                </div>
+                <div class="cart-modal__body">
+                    <div class="cart-item">
+                        <p class="cart-item__title">
+                            Ролл угорь стандарт
+                        </p>
+                        <div class="cart-item__controls">
+                            <div class="cart-item__controls--price">250 ₽</div>
+                            <button class="btn btn-outline">+</button>
+                            <div class="cart-item__controls--count">1</div>
+                            <button class="btn btn-outline">-</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <p class="cart-item__title">
+                            Ролл угорь стандарт
+                        </p>
+                        <div class="cart-item__controls">
+                            <div class="cart-item__controls--price">250 ₽</div>
+                            <button class="btn btn-outline">+</button>
+                            <div class="cart-item__controls--count">1</div>
+                            <button class="btn btn-outline">-</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <p class="cart-item__title">
+                            Ролл угорь стандарт
+                        </p>
+                        <div class="cart-item__controls">
+                            <div class="cart-item__controls--price">250 ₽</div>
+                            <button class="btn btn-outline">+</button>
+                            <div class="cart-item__controls--count">1</div>
+                            <button class="btn btn-outline">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-modal__footer">
+                    <div class="cart-modal__footer--price">
+                        1250 ₽
+                    </div>
+                    <div class="cart-modal__footer--controls">
+                        <button class="btn btn-primary">
+                            Оформить заказ
+                        </button>
+                        <button class="btn btn-outline">
+                            Отмена
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <footer class="footer">
             <div class="container">
                 <div class="footer-box">
-                    <div class="footer-logo logo">
+                    <a href="./index.html" class="footer-logo logo">
                         <img src="./images/logo.png" alt="logo">
-                    </div>
+                    </a>
                     <div class="footer-nav">
                         <ul>
                             <li>Ресторанам</li>
