@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="./scripts/index.js" defer></script>
     <title>Delivery Food</title>
 </head>
 
@@ -25,7 +26,7 @@
                             <img src="./images/icons/user.png" alt="user">
                             Войти
                         </button>
-                        <button class="btn btn-outline">
+                        <button class="btn btn-outline" id="cart-button">
                             <img src="./images/icons/shopping-cart.png" alt="shopping-cart">
                             Корзина
                         </button>
@@ -36,7 +37,7 @@
         <main class="main">
             <section class="products">
                 <div class="container">
-                    <div class="products-wrapper">
+                    <div class="products-wrapper" id="goods-container">
                         <div class="products-card">
                             <div class="products-card__image">
                                 <img src="./images/goods/goods-1.jpg" alt="rests-1">
@@ -184,7 +185,9 @@
             <div class="cart-modal">
                 <div class="cart-modal__header">
                     <h4 class="cart-modal__header--title">Корзина</h4>
-                    <img src="./images/icons/close.svg" alt="close" class="cart-modal__header--close">
+                    <span class="cart-modal__header--close">
+                        <img src="./images/icons/close.svg" alt="close">
+                    </span>
                 </div>
                 <div class="cart-modal__body">
                     <div class="cart-item">
